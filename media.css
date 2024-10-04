@@ -1,11 +1,42 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 321px) {
+  .head {
+    width: 30rem;
+  }
   .pop-up img {
     width: 70%;
   }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up {
+    min-height: 51rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+  .right {
+    right: 5.5rem;
+    top: 24rem;
+  }
+  .left {
+    left: 5.5rem;
+    top: 24rem;
+  }
 }
-@media (max-width: 320px) {
+@media only screen and (min-width: 322px) and (max-width: 376px) {
   .head {
     width: 30rem;
+  }
+  .pop-up img {
+    width: 70%;
   }
   .head h1 {
     font-size: 2.5rem;
@@ -18,16 +49,292 @@
     top: 1rem;
     right: 1rem;
   }
-  .btn{
-
+  .btn {
+    font-size: 2.5rem;
+  }
+  .right {
+    right: 6.5rem;
+    top: 24rem;
+  }
+  .left {
+    left: 6.5rem;
+    top: 24rem;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 70%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+  .right {
+    right: 7.5rem;
+    top: 24rem;
+  }
+  .left {
+    left: 7.5rem;
+    top: 24rem;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 527px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 70%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+  .right {
+    right: 9.5rem;
+    top: 24rem;
+  }
+  .left {
+    left: 9.5rem;
+    top: 24rem;
+  }
+}
+@media only screen and (min-width: 527px) and (max-width: 627px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 70%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+  .right {
+    right: 10.5rem;
+    top: 24rem;
+  }
+  .left {
+    left: 10.5rem;
+    top: 24rem;
+  }
+}
+@media only screen and (min-width: 627px) and (max-width: 766px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 70%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+  .right {
+    right: 12.5rem;
+    top: 24rem;
+  }
+  .left {
+    left: 12.5rem;
+    top: 24rem;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 900px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 55%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+    font-size: 3.5rem;
+  }
+  .btn {
+    font-size: 4.5rem;
+  }
+  .right {
+    right: 18.5rem;
+    top: 23rem;
+  }
+  .left {
+    left: 18.5rem;
+    top: 23rem;
+  }
+}
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 55%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+    font-size: 3.5rem;
+  }
+  .btn {
+    font-size: 4.5rem;
+  }
+  .right {
+    right: 25rem;
+    top: 33rem;
+  }
+  .left {
+    left: 25rem;
+    top: 33rem;
+  }
+}
+@media only screen and (min-width: 1439px) and (max-width: 1600px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 55%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 3rem;
+    right: 3rem;
+    font-size: 5.5rem;
+  }
+  .btn {
+    font-size: 6.5rem;
+  }
+  .right {
+    right: 35rem;
+    top: 47rem;
+  }
+  .left {
+    left: 35rem;
+    top: 47rem;
+  }
+}
+@media only screen and (min-width: 2559px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 55%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 7rem;
+    right: 8rem;
+    font-size: 12.5rem;
+  }
+  .btn {
+    font-size: 11.5rem;
+  }
+  .right {
+    right: 62rem;
+    top: 99rem;
+  }
+  .left {
+    left: 62rem;
+    top: 99rem;
+  }
+}
+@media only screen and (max-height: 411px) {
+  .head {
+    width: 30rem;
+  }
+  .pop-up img {
+    width: 75%;
+    top: 38%;
+    left: 51%;
+  }
+  .head h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .head i {
+    font-size: 2.5rem;
+  }
+  .pop-up span i {
+    top: 1rem;
+    right: 1rem;
+    font-size: 3.5rem;
+  }
+  .btn {
     font-size: 2.5rem;
   }
   .right {
     right: 5.5rem;
-    top: 24rem;
-}
-.left {
-  left: 5.5rem;
-  top: 24rem;
-}
+    top: 19rem;
+  }
+  .left {
+    left: 5.5rem;
+    top: 19rem;
+  }
 }
